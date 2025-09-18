@@ -1,0 +1,17 @@
+[book]
+authors = ["Rust Philosopher Contributors"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Rust Philosopher"
+description = "A collection of Rust best practices, intended for human and GenAI consumption"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/socratic-shell/rust-philosopher"
+edit-url-template = "https://github.com/socratic-shell/rust-philosopher/edit/main/{path}"
+site-url = "/rust-philosopher/"
